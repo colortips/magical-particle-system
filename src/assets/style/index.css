@@ -1,0 +1,11 @@
+@import 'reset.css';
+@import 'theme.css';
+@import 'typography.css';
+@import 'base.css';
+/*
+* Any direct .css import will be bundled in the main.css file:
+* @import 'components/___.css';
+*/
+
+@tailwind components;
+@tailwind utilities;
