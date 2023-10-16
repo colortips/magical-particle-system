@@ -1,5 +1,3 @@
-import { Interface } from "readline"
-
 export class Particle {
     color: string
     opacity: number
@@ -49,7 +47,3 @@ export class Spell {
         this.animation = [new ParticleFrame(animationSize)]
     }
 }
-
-// export interface Spellbook{
-//     spells: Spell[],
-// }
