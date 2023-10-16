@@ -1,5 +1,5 @@
 {
-  "name": "project-starter",
+  "name": "magical-particle-system",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,9 +12,13 @@
     "vue": "^3.3.4"
   },
   "devDependencies": {
+    "@types/node": "^20.8.6",
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vueuse/core": "^10.5.0",
     "autoprefixer": "^10.4.16",
+    "material-symbols": "^0.13.0",
     "modern-css-reset": "^1.4.0",
+    "pinia": "^2.1.7",
     "postcss": "^8.4.31",
     "tailwindcss": "^3.3.3",
     "typescript": "^5.0.2",
