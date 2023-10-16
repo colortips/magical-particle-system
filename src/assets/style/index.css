@@ -2,6 +2,7 @@
 @import 'theme.css';
 @import 'typography.css';
 @import 'base.css';
+@import 'material-symbols';
 /*
 * Any direct .css import will be bundled in the main.css file:
 * @import 'components/___.css';

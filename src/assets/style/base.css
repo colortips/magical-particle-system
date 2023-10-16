@@ -1,0 +1,9 @@
+.btn{
+    @apply border-[1px] border-white rounded-full flex justify-center items-center;
+    &:not([disabled]){
+        @apply hover:border-primary hover:text-primary hover:scale-125 hover:bg-white hover:bg-opacity-10;
+    }
+    &[disabled]{
+        @apply opacity-25 hover:cursor-not-allowed;
+    }
+}

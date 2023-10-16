@@ -1,1 +1,1 @@
-# project-starter
+# Magical Particle System
